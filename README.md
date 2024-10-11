@@ -62,9 +62,9 @@ Write a function `Interpolator` that performs the following interpolations based
    ```
 3. **Cubic Spline Interpolation**: Use MATLAB’s built-in `spline` function.
 
-### Questions:
-1. **Explain how each interpolation method works.**
-2. **Why can't the ideal interpolator be used in practice?**
-3. **Sample a continuous signal** $s(t) = \cos(2\pi f t)$ with $f = 10 \, \text{Hz}$ over $[0, 1]$ seconds, and sample it at $f_s = 20 \, \text{Hz}$ to obtain $x[n]$.
+- **Task:**
+  1. **Explain how each interpolation method works.**
+  2. **Why can't the ideal interpolator be used in practice?**
+  3. **Sample a continuous signal** $s(t) = \cos(2\pi f t)$ with $f = 10 \, \text{Hz}$ over $[0, 1]$ seconds, and sample it at $f_s = 20 \, \text{Hz}$ to obtain $x[n]$.
    - **Expand** the signal using the `Expander` and `Interpolator` functions for all modes, and convert $x[n]$ to $\hat{x}(t)$.
    - **Plot** the results and explain whether $x(t)$ was recovered accurately.
